@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'bpdots'; /* Use the font family name you want to use */
+    src: url('BPdotsUnicaseDiamond-webfont.eot');
+    src: url('BPdotsUnicaseDiamond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('BPdotsUnicaseDiamond-webfont.woff2') format('woff2'),
+         url('BPdotsUnicaseDiamond-webfont.woff') format('woff'),
+         url('BPdotsUnicaseDiamond-webfont.ttf') format('truetype'),
+         url('BPdotsUnicaseDiamond-webfont.svg#bpdotsunicasediamondregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Now use the font family name you defined in the @font-face rule */
+  .bpdots {
+    font-family: 'bpdots', sans-serif; /* Use 'bpdots' instead of 'YourCustomFontName' */
+  }
