@@ -45,7 +45,7 @@ export const useProductStore = defineStore("product", {
     async fetchAllComponents() {
       try {
         const api = useApi();
-        const response = await api.get<ComponentResponse[]>("/products");
+        const response = await api.get<ComponentResponse[]>("/products/");
         this.components = response.data as ComponentResponse[];
       } catch (error) {
         console.error('Error fetching components:', error);

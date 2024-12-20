@@ -7,7 +7,7 @@ from fastapi import Depends
 from dotenv import load_dotenv
 # from google.cloud.sql.connector import Connector
 
-load_dotenv('./app/.env')
+load_dotenv('./backend/.env')
 
 #PostgreSQL
 PG_USER = os.getenv("DB_USER")
